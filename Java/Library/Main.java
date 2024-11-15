@@ -107,12 +107,11 @@ public class Main {
                 for (int i = 0; i < Book.books.length; i++) {
                     tempBooks[i] = Book.books[i];
                 }
-                Book.books = tempBooks; // Update the reference
+                Book.books = tempBooks;
             }
 
-            // Add the new book to the array
             Book.books[Book.bC] = new Book(newBookName, newAuthor, true);
-            Book.bC++; // Increment the book count
+            Book.bC++;
             System.out.println("Thank you for the book!");
             getOrder();
         } else if (order == 5) {
