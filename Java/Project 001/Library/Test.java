@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Book.initializeBooks();
-        Main main = new Main();
+        Test main = new Test();
         main.getOrder();
     }
 
